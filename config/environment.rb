@@ -14,7 +14,7 @@ Bundler.require
 # 			:encoding => 'utf8'
 # 	)
 # end
-
+#s
 configure :development do
 	db_config = YAML.load(ERB.new(File.read('config/database.yml')).result)['development']
 	ActiveRecord::Base.establish_connection(db_config)
