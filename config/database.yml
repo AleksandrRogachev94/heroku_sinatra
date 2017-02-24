@@ -2,6 +2,5 @@ development:
   adapter: postgresql
   database: posts_development
   host: localhost
-  pool: 5
   username: <%= ENV['PG_USER'] %>
   password: <%= ENV['PG_PASS'] %>
