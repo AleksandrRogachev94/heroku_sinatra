@@ -1,9 +1,2 @@
 production:
   url: <%= ENV['DATABASE_URL'] %>
-
-development:
-  adapter: postgresql
-  database: posts_development
-  host: localhost
-  username: <%= ENV['PG_USER'] %>
-  password: <%= ENV['PG_PASS'] %>
